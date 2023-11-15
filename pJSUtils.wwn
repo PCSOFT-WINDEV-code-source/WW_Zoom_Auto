@@ -1,0 +1,74 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pJSUtils
+ major_version : 28
+ minor_version : 0
+ type : 65539
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1948c6e200321dcc
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 41
+  p_codes :
+   -
+     type : 983040
+     role : N
+   -
+     type : 983042
+     role : N
+  procedures :
+   -
+     name : RecupereObjetPage
+     internal_properties : CAAAAAgAAACBh+uPJAEr4inQsDOL9HGEDy0i/Tw+BzPpQiF5FvoYh0yq2NKz7sDazncBjwJrMphmqx79zt80Gy/cWfhL/AgvcuzOXeic+qdm5CaptGXyUofQMxEbMziCjPsDcQikA9x9
+     procedure_id : 1821924736124529116
+     type_code : 15
+     code : |1-
+      // Récupère un objet HTML à partir d'un ID ou d'un NAME de balise
+      function RecupereObjetPage(sIDNom)
+      {
+      	// # getElementById
+      	if (document.getElementById && document.getElementById(sIDNom)) { return document.getElementById(sIDNom); }
+      	
+      	// # getElementsByName
+      	if (document.getElementsByName && document.getElementsByName(sIDNom)) { return document.getElementsByName(sIDNom)[0]; }
+      	
+      	// # all
+      	if (document.all && document.all[sIDNom]) { return document.all[sIDNom]; }
+      	
+      	// # Eval
+      	return (eval(sIDNom) || eval("_PAGE_." + sIDNom || null));
+      }
+     language : JS
+     type : 458752
+     role : N
+   -
+     name : SetOpacite
+     internal_properties : CAAAAAgAAAADrHrZLsub0KQRIWXDsbOLBdWRkEAJjGOqDu3qyRC5jcej1VS6bZGoXZ2r6hmTl1MlD/WopJMMmUDTDADU4p/rzwhXh1nc4U5B6Q==
+     procedure_id : 1821945785778172381
+     type_code : 15
+     code : |1-
+      function SetOpacite(pclObjet, nOpacite)
+      {
+      	pclObjet.style.opacity = (nOpacite/100);
+      	pclObjet.style.filter = 'alpha(opacity=' + nOpacite + ')';
+      	pclObjet.setAttribute("opacite", nOpacite)
+      		
+      	return true;
+      }
+     language : JS
+     type : 458752
+     role : N
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : NAV_CollectionNavigateur1
+resources :
+ string_res :
+  identifier : 0x1fbe176b042ca4c5
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

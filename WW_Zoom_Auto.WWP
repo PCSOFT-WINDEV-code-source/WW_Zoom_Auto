@@ -1,0 +1,118 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WW_Zoom_Auto
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : Le projet a pour but de ...
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : CAAAAAgAAADxtUA8zCbBTv1hso96ziD7K6bAANMcoCfVvRTBrBlArG5eWt/VfoWuWqmn69ZUgXjj38v8d26upPuiDw9RBSJTL+LtYZZar/9DGrWcQFu0tyBlP7TlT9XbU6KZEhqn7bBwtakbSJHsRD0CknJxZnSm4Mbl8ZztKJL5B+/zFckqusG+dG4hFq5dkBa7qttCc/aIt5JLVEH65Ig3Tvr0tmkPcMkAY5oFA/neM9GP7+I+zcRuIIEJwWa+1uT8SJCt+R1bUdSttbEwt1MKG6WIoai17wuymO2bjHNwa2l4jcqjBIcGF8nAyf16/9irRyFaIQTpeNR6iOqPsY7JkoCeCBMf2F4zYIib5S6N3oyXSqr6DgCOnw3AHzQvbhWrtvmUHLEaNyEHBtlVRLY9pdWxT+6J8bLrL8Jy5fmEf5oSAIqxQ7r4nkaRJV2xy86OFzPCnd19NAgmkFB97C504zA2NdleI1xE0q95NvNQi8gbU/GulnwworMqwm8bP4gshTjTgiWrjx6fjehZQaxfHDEdfvVx6TK/TlyOFC4iiRqi5YHt1mHl+UiK9tkFnShYFMGDBx+m3NsYVIdRY6sQfwMsRxWnTrKCwgQA8vxsFrKopn4zboRJJEWq7CWH2DFCNBYE0ut66qdUIg4IEqVDPv9JH9j4uD0NPcqdx+LL4VEYdKLZ50eJnud9ulNaDQ06r2wF94eH8HsYG+jvN4uHrl/lX5xLtbiniFlNmmeDTjEVMtYUBLIyQJmwJ3keWRPiuhL+iVqoIVcgl+SIqFkjC21RYkvOdSktU6ogxPKRS/nSFQLJ/ssGT4/K1i5uIN4LruWCUi0lQUsa9Ww6zUZcLbYxXYVJ1YIN6Yd6ZFh0C6buSDhEkMoIPmeqIMqsRtXONb5yuOXcJ1m4BoHwG39aPUit5o9ltdjRgjca/AZtdxIOOGuZ9KrBgMfuKW4+PPMAqv51a5GDJoiSpQF75qTWC0J+fWFSr8LVkDnGzJkv82Xam2eL3zUR6tFllo5YcANOpq69KpWR4mdn50OF4DbgEQ5PliFz4Umx0RIEne2MKbFaaGmdRGY9DyF8/tYSNLQvIVQHqmuSi5V3/8t1j9R4OALMku9XiG3sBxOB8WKYVy7oGfMgn7Pi/XIA9NNSDGIAFrerctJQkNi4Ie9f0hk7qgEDULzxfBvqWcZknr+H/ikWawzVZZSDH0y7X6Eh9Svjb54lIvdpYnkMMFWuI1mDYY8efvIuvM9RV/s9CT9spyQ0AaWUBwPNksm4436KKwpKyhNfiVB44AdWdLLRNH1owbp5lLoHJoY0cumDjKZ3p4ln+LwE05dwiam1lWI5aL5zEq/IEJvM/g7AbcWkYa5iCQeovhy8frFSZ3HBMPmyR9Mv6ZA0rxJ2JQiiIn0oyxZp7zhprhHwCCzgMb14+dZWFA5rC31omiu877XK3ud0GSNxrhkRYRFWsR1hRj1GC2GsEa3+k47+/DltKOK8fcTw1uyxh9UmMYFa6wOR+nifmM8vqWfFbHd3AYOWXPk2dHvY/0qjITmJC0vHJZGqgYzgYT/w8tPKtYA6GFNcyRSEpYDaGVFVbtvlpaH+AH/44wAGnvMqUuR3owOcAeLU3ISb524WyGbBG3uitXlQBVXqckFKZWQvidD75rW++09qD8idMPidxFG2MS/IeTH7pQHk6zprIOTUwtz/C9W9kN1fEQ4v1KDXETXMWT7hcj6bhdeiXP7UdhvGEEPxg25jPVCiCUHqRGWXA+NbtluNYdizQdU8SfQiS0RS6/5VcLjZmmJ7kcgFpWIRhOeyYjuiIrWKyxHJoJyxlJQO3y7VnDS/SbD4YYpOWX/ycTDpOJY+AniRVU71bVSiACHNwnw2e82Obw4+JxTpSTU+mxlNyg==
+ configurations :
+  -
+    name : WW_Zoom_Auto
+    internal_properties : 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
+    configuration_id : 15545331164568205035
+    type : 2
+    generation_name : WW_Zoom_Auto.wdl
+    version : {}
+    index_page_generation_name : PAGE_Exemple
+    language : 1
+    64bits : true
+    new_features_help :
+     name : ""
+     internal_properties : CAAAAAgAAABa0sJuU4b5rrxtaapQyHdxJAZnCi3riTKesmncWh5t8XaTtD78MUUtBJzYFaOXro2KXLZFz5idk4Wv
+ elements :
+  identifier : 0x4b012eae001368a1
+  elements :
+   -
+     name : Procedures globales de WW_Zoom_Auto
+     identifier : 0x4948c32300007e71
+     internal_properties : CAAAAAgAAABi2FpOfSqCnbBzrsm1m8vJUsehISf6OTKuqKO87CNxb12hW2GhZwSMAT2nEZFPK51n7w==
+     physical_name : .\Procedures globales de WW_Zoom_Auto.wdg
+     type : 7
+   -
+     name : pJSUtils
+     identifier : 0x4948c32400017efd
+     internal_properties : CAAAAAgAAACQbsjU04iguxIReAdzUvV/HAMbs5t+Zaqiy4RLcb7e2iLsEDzbLc7WX9vFM/PtlQv1fQ==
+     physical_name : .\pJSUtils.wwn
+     type : 65539
+   -
+     name : PAGE_Exemple
+     identifier : 0x494909270000f847
+     internal_properties : CAAAAAgAAADcujRgXwQsP4aF/LvHx2lr9OVDi03444CO/HPk+AcVk31F+8FHuVJa009Jt39xCf/JSQ==
+     physical_name : .\PAGE_Exemple.wwh
+     type : 65538
+   -
+     name : MDLC_VIGNETTE
+     identifier : 0x4948c38f000221f0
+     internal_properties : CAAAAAgAAACHg+8z8K0FJg8OaRBsZTDav4iKOpBD+uqm7rtkXsFVS6F/X22qHr3HTMgyjhbKtiqSkg==
+     physical_name : .\MDLC_VIGNETTE.wwt
+     type : 65543
+   -
+     name : PAGEMOD_EXEMPLE
+     identifier : 0x494925a800004fbb
+     internal_properties : CAAAAAgAAADYtoCcK1DYg1opgK/LTWljkM3Pp52otuCugDWaEu2nuQ+DtQcDxWZuJxONayulXVO9RQ==
+     physical_name : .\PAGEMOD_EXEMPLE.wwt
+     type : 65541
+  other_elements : []
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ common_generation_directory : true
+ site_type : 3
+ languages :
+  - fr-FR
+ site_map :
+  roots : []
+  orphans :
+   -
+     name : PAGE_Page1
+     parameters : []
+     title : {}
+     description : {}
+ url_rewriting :
+  internal_properties : CAAAAAgAAADkPzcUdUUS7wCiun+MCjqYH70RJdzkSv/nRvXZ3ENdikMa6bcHtsAH
+ code_elements :
+  internal_properties : CAAAAAgAAABFuGcqP74CB3aHqdUnRo+gu+Kda6JGYdh7o8UP/j67fw4u+RwrjWZDMkHvQoPDzRvctFAYabg3ySjvOR+7hRoBVb5HP1v+EtxkO8BHs7ABORAU
+  type_code : 0
+  p_codes :
+   -
+     code : |1-
+      
+      //
+      // Cet exemple propose un modèle de champ permettant d'afficher une image miniature
+      // qui propose, via un clic, d'afficher automatiquement l'image agrandie
+      //
+      // Limitations :
+      // - Les images ne peuvent pas être chargées depuis une base de données
+      // - Le modèle de champ ne peut pas être inclus dans une zone répétée
+      //
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WW_Zoom_Auto
+     identifier : 0x4b012eae001968ff
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

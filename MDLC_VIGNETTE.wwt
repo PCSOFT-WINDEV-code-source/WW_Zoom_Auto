@@ -1,0 +1,541 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : MDLC_VIGNETTE
+ major_version : 28
+ minor_version : 0
+ type : 65543
+ description : ""
+ subtype : 8192
+page :
+ name : MDLC_VIGNETTE
+ identifier : 0x2948c38f017b21f0
+ internal_properties : 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
+ properties :
+  width : 32767
+  height : 32767
+ controls :
+  -
+    name : MDLC_VIGNETTE
+    identifier : 0x2948c38f017c21f0
+    internal_properties : CAAAAAgAAADeN6vNqlP+yx+W3pW4KVspUCqJ2JOtxgWmo+TnPq/BCscRzcxo7CNN6+2w7tAVMLnebZwnGFJduaPDi8yPBcnsJmEAaZYe9fNR2nRo0yU1M/jiSsYZasCYi2Krn+Wy1O+8fOYKnilxdgzbvYPL/AUNlqF469feK9OU5nrkbL/Qs8VNoeAP/IqpORDDgD7I/x6jwwCu0yBn94N5aStCZX1l1yB6ZSk/O1raZkSgpFffY1h3kr+WU7hQdmu5k1pIt7MvxD2AxiRdmi9fNsPNdJtoYA4yASz1I2NoYvX8Lnez0WObRr94mOqZViDthVldrZruoqZLdk4SonxaaZYbqfox4tmDx+nl9HUAsIom8wqKVE1Q/BJQIQu6mfupwsDFEXL46Yg5ErKgIUqEJqGr3mrYxW4O84IIOCIXPMUm4MEBTQy77saCt9qyq8NjJcmkGCcOA4xPq9zDk0Y6pFrIFhQYCV/FsD03nh1zd87AlgcYWJqUPbY8Tnbc7yt/XcMsCmwSllwqp/nH1VURU5ghajcHbPF3u4DLQaFLvZ3tts9oh16LEDoP8nBDsR1+0WHI7PFyJXWt5HVx/Yk848ZmjRLUehpjAPmJLYflc9b5q+ZXnExmUY2zIH2EhECsdEA8mhoBWNKicg2mfszrFa0HXN2qVXmJQWaXTAA1XPxkGuFraoO/NP7rSlJaRy/71+BxmAo9rHXU/Z4tXpdvWBBnVugiAn5uQJrNft5fLp6zSEF2QDA/KrkP2OCgccQkvITaVkbp530hJt88iEfRBuODIru+QoMUSu8dH5sbYgHtu+HFAgaY/r2Fy5Z//V+bFX0CN6zLPn+dQH3+c+g1T5QtSg==
+    properties :
+     width : 50
+     height : 50
+    controls :
+     -
+       name : IMG_MDLIMAGE
+       identifier : 0x2948c38f017d21f0
+       internal_properties : CAAAAAgAAABEd4pnEJR1Kkzku25727buhX3shVk/YYv9CWoI4Pec4bg9rnnhb6Dmk7mfIwVCjelsAVL4mkGQQeU1SSd656Bqiwbo5x4m6+6iiJi63YaZ9ObZmDqXSNQBVkNxwwtlVjeUN5d4DKHsNAqgL3MNElAXFwEgPQsqyesowpQf6DZvaJKmrovx07T9RxDjOEot/lDFpTUDcMrBUhtnajd+Ri3n0wmjXwVlKE92qKdwavOXrGgN+3YIFLpjHfHripb9PtOQfF6ZjHC/XyABYgUmzrfQxlAaclgPKOedTuMQGJ2UYhEEezPBitlfTh3MeNd5aqWmkadLsm/mJxoW2oWIr0e9Stsf4QHGvzUcakphkcvGx3/3Q7saoPjFNxMO619nstsaAacWafCoTf5qMprqJTGP+G5xHUYHPynFRKoTrq0uqmxNEMyZJg/1LroJdoKbRBhV0N216YDn82IrJqwMDaI/1JbD9kT/ZbXTx1dYZ4M5kkCSkv5VLQtD0uRMZ0p7KhdjFF9z2sxnYUma1nrEm0ktgC9HXoC4xR6ngRF3Sha/PMQ5FwV+fxmynRME9DrIehwA9/MNVuheL5o7ncubjQjPT+XMKc1mzja4SI9ik+Sx5GVWwAYC074656mmTXhQ5RCKBcO+XcRhgIpNWXIDvh37v63ak07RkOAH2seNP/xgYwOBwAX+BUo+zvb8NjIM5w3MOvF3pQv99rvejD5VxkzOy1y7u/xNM0j0BdFBhTlfO6dzc+psQBmy+GPlkc38p/a4EnWdQbpozDYp1J/aSzsX8r0lPeuSlqSwgOyAAEPKJk3y5npblm61IrkT8WQHKligkzNb0vCgGPyHqkPpPFIu2inLSkgxhA8tJjv+/wWCcyXEKhkoEK7eCrbJg0T4aJzU98l0pH5z9NTqxZ4miEKWnMYsv+PN5F+yibuVgikMWM1JrHxhXpNEPPswL0R2FtEnK8T8Oe5ptl5woqgVuq8oWoFuzjKdmqbx5k09XI4zP9rnaPGGaXbcjfoTboEBr13MSlBHOYtuSnAtk5026K4bXxln4P1W4V3qobhpAigWJ49UWjAFpPXDUR9c7TOjQ5z0QlibbTYxPZsEG6v5oYtMRUhwYrbbLGGJ1p+MOYt9+c2914UeYoJwDB7LrsWjXVuSp5ZRycK9U4C3Z6gEFTK7ui0c5K3brKgeQpqirVWt2LbqDEu0pQGKxe0CIvrRghZ6JJidxsiI+Xh5pyoRZSv89nq3zFL+vqwM0YWZYG+bSXFPUOLYd04XvQWyh/VHsQ==
+       properties :
+        width : 50
+        height : 50
+       type : 22
+       code_elements :
+        type_code : 57
+        alias : C1
+        p_codes :
+         -
+           type : 851999
+           role : N
+         -
+           internal_properties : CAAAAAgAAACvxso/xWqZz2ujKpEG3VGmu+uY1QuI5bUyiED4H6LHfuWj7GZy5mEWvPsXYvclqIblVprlJjyV+FC2b7hrZGiUiNmzMue3ifdgGAosieNnn+wTGfHf0Ndu47lVJzgbsCubrcpjOAXwtKYYvrTUnuZzEakPcuthFVF0V6CfnhODvy42XM4cGD8c8HIr9Cb1AzCcsd5qHiclVKakDFLR3bBS47VKp1KXiAKzJhQbLWAhBZabKU6ObN8APKqbbWhIg2WoumoZwq8bq+kpN1w=
+           code : |1+
+            
+            
+            EXTERNE window
+            
+            pclBox		est un objet dynamique
+            pclThumb 	est un objet dynamique
+            pclChamp 	est un objet dynamique
+            nLargeur	est un entier
+            nHauteur	est un entier
+            rRatioL		est un réel = 1.0
+            rRatioH		est un réel = 1.0
+            rRatio 		est un réel = 1.0
+            nPosX		est un entier
+            nPosY		est un entier
+            
+            // Récupère l'image en taille réelle
+            pclThumb = RecupereObjetPage("thb" + __IMAGEALIAS)
+            pclBox   = RecupereObjetPage("box" + __IMAGEALIAS)
+            pclChamp = RecupereObjetPage(__IMAGEALIAS)
+            
+            // Si on n'a pas conservé la largeur d'origine
+            SI pclThumb:getAttribute("orgwidth") ALORS
+            	
+            	// Récupère la largeur d'origine conservée
+            	nLargeur = pclThumb:getAttribute("orgwidth") 		
+            SINON
+            	
+            	// Récupère la largeur d'origine
+            	nLargeur = pclThumb:offsetWidth
+            	
+            	// Sauve la largeur d'origine dans un attribut sur l'objet
+            	pclThumb:setAttribute("orgwidth", nLargeur)
+            FIN	
+            
+            // Si on n'a pas conservé la hauteur d'origine
+            SI pclThumb:getAttribute("orgheight") ALORS
+            	
+            	// Récupère la hauteur d'origine conservée
+            	nHauteur = pclThumb:getAttribute("orgheight") 	
+            SINON
+            	
+            	// Récupère la hauteur d'origine
+            	nHauteur = pclThumb:offsetHeight
+            	
+            	// Sauve la hauteur d'origine dans un attribut sur l'objet
+            	pclThumb:setAttribute("orgheight", nHauteur)
+            FIN
+            
+            // Ratio de l'image
+            SI nLargeur > nHauteur ALORS
+            	rRatio = nHauteur / nLargeur 
+            SINON 
+            	rRatio = nLargeur / nHauteur 
+            FIN
+            
+            // Ratio de réduction en largeur
+            SI nLargeur > __LARGMAX ALORS	
+            	rRatioL = __LARGMAX / nLargeur	
+            	nLargeur = __LARGMAX
+            	nHauteur = nHauteur * rRatioL
+            FIN
+            
+            // Ratio de réduction en hauteur
+            SI nHauteur > __HAUTMAX ALORS	
+            	rRatioH = __HAUTMAX / nHauteur	
+            	nHauteur = __HAUTMAX
+            	nLargeur = nLargeur * rRatioH
+            FIN
+            
+            // Calcule la position de l'image
+            nPosX = (MoiMême..Largeur - nLargeur) / 2 + MoiMême..X
+            nPosY = (MoiMême..Hauteur - nHauteur) / 2 + MoiMême..Y
+            
+            // Ramène la position à 0 si elle est inférieure
+            SI nPosX < 0 ALORS nPosX = 0
+            SI nPosY < 0 ALORS nPosY = 0
+            SI nPosX + nLargeur > window:document:body:offsetWidth ALORS nPosX = window:document:body:offsetWidth - nLargeur - 64
+            SI nPosY + nHauteur > window:document:body:offsetHeight ALORS nPosY = window:document:body:offsetHeight - nHauteur - 64
+            
+            pclBox:removeAttribute("opacite")
+            
+            // Redimensionne l'image
+            pclThumb:style:width 		= nLargeur
+            pclThumb:style:height 		= nHauteur
+            
+            // Affiche l'image
+            pclBox:style:left			= nPosX + "px"
+            pclBox:style:top			= nPosY + "px"
+            pclBox:style:zIndex 		= MaxZIndex()
+            pclBox:style:visibility 	= "visible"
+            pclThumb:style:visibility 	= "visible"
+            
+            // Lance l'animation
+            gnTimerAnimation = Timer(Animation, 2)
+           type : 851998
+           role : N
+         -
+           type : 851984
+           enabled : false
+         -
+           type : 1310736
+           enabled : false
+         -
+           type : 852149
+           role : N
+           enabled : false
+         -
+           type : 852178
+           role : N
+           enabled : false
+         -
+           type : 852179
+           role : N
+           enabled : false
+         -
+           type : 852180
+           role : N
+           enabled : false
+    type : 42
+    code_elements :
+     type_code : 92
+     alias : C2
+     p_codes :
+      -
+        code : |1-
+         
+         global
+         	__IMAGEMINIATURE	est une chaine						// Chemin de l'image miniature
+         	__IMAGETAILLEREELLE	est une chaine						// Chemin de l'image en taille réelle (si non renseigné, utilisera l'image miniature)
+         	__ALIAS				est une chaine						// Alias du modèle de champ
+         	__IMAGEALIAS		est une chaine						// Alias de l'image
+         	__LARGMAX			est un entier = 640					// [MODIFIABLE] : Largeur maximale affichable pour l'image en taille réelle
+         	__HAUTMAX			est un entier = 480					// [MODIFIABLE] : Hauteur maximale affichable pour l'image en taille réelle	
+        type : 851968
+      -
+        code : |1-
+         
+         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+         //
+         //  /!\ Ne pas modifier ce code : conserver l'appel à ExecuteAncêtre /!\
+         //
+         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+         
+         InitVignette()
+         
+         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+         //
+         // Pour attribuer une image, utilisez la syntaxe <Champ Modèle de champ> = <image>
+         // Pour attribuer une image en taille réelle, utilisez la fonction SetImageTailleRéelle : <Champ Modèle de champ>.SetImageTailleRéelle(<image>)
+         //
+         // où <image> est le chemin relatif au répertoire _WEB de l'image ou une URL complète de l'image à afficher
+         //
+         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+         
+         __IMAGEMINIATURE = IMG_MDLIMAGE..Image
+        type : 851980
+      -
+        code : |1-
+         procedure SetValeur(local sImage est une chaine)
+         
+         	// Conserve l'image
+         	__IMAGEMINIATURE = sImage
+         
+         	// Affiche l'image
+         	IMG_MDLIMAGE = sImage
+        type : 852019
+      -
+        code : |1-
+         procedure GetValeur()
+         
+         // Renvoie l'image
+         renvoyer __IMAGEMINIATURE
+        type : 852018
+      -
+        type : 852298
+        role : N
+      -
+        code : |1-
+         
+         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+         //
+         //  /!\ Ne pas modifier ce code : conserver l'appel à ExecuteAncêtre /!\
+         //
+         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+         
+         gnTimerAnimation est un entier
+         
+         LOCAL	
+         	
+         	si __IMAGEALIAS <> "" alors
+         		// Charge l'image
+         		Preload(__IMAGEALIAS, __IMAGEMINIATURE, __IMAGETAILLEREELLE)
+         	fin
+        type : 851999
+        role : N
+      -
+        type : 852227
+        enabled : false
+      -
+        type : 1310979
+        enabled : false
+      -
+        type : 852228
+        role : N
+        enabled : false
+      -
+        type : 852217
+        role : N
+        enabled : false
+ type : 1
+ languages :
+  - fr-FR
+ code_elements :
+  type_code : 91
+  p_codes :
+   -
+     type : 852298
+     role : N
+   -
+     type : 851999
+     role : N
+   -
+     type : 852000
+     role : N
+   -
+     internal_properties : CAAAAAgAAAC8gmh+MC4QrU0utgNBfl0Ba/jqg1LK+Dwp8MhpUhqrFXKYnYkcdsFAaHOY6ObpQ/xfKfSxjrQterWfXIxYE+XU8eTa3dgHHYih6pD5FI+viG7ChbqMzBs=
+     type : 852167
+   -
+     type : 852169
+     role : N
+   -
+     type : 852225
+     role : N
+   -
+     internal_properties : CAAAAAgAAAC8gmh+MC4QrU0utgNBfl0Ba/jqg1LK+Dwp8MhpUhqrFXKYnYkcdsFAaHOY6ObpQ/xfKfSxjrQterWfXIxYE+XU8eTa3dgHHYih6pD5FI+viG7ChbqMzBs=
+     type : 852227
+   -
+     type : 1310979
+     enabled : false
+   -
+     type : 852228
+     role : N
+  procedures :
+   -
+     name : SetImageTailleRéelle
+     procedure_id : 1821921592205704497
+     type_code : 14
+     code : |1-
+      // Résumé : Définit l'image en taille réelle
+      // Syntaxe :
+      // SetImageTailleRéelle (<sImage> est chaîne)
+      //
+      // Paramètres :
+      //	sImage (chaîne) : Chemin de l'image
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure SetImageTailleRéelle(local sImage est une chaine)
+      
+      	// Conserve l'image
+      	__IMAGETAILLEREELLE = sImage
+      	
+      	// Si aucune image n'est définie, on utilisera l'image miniature
+      	si __IMAGETAILLEREELLE ~= "" ALORS		
+      		__IMAGETAILLEREELLE = __IMAGEMINIATURE
+      	FIN	
+     type : 458752
+   -
+     name : GetImageTailleRéelle
+     procedure_id : 1821921858493739312
+     type_code : 14
+     code : |1-
+      // Résumé : Renvoie l'image en taille réelle
+      // Syntaxe :
+      // [ <Résultat> = ] GetImageTailleRéelle ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	chaîne : Image en taille réelle
+      //
+      Procédure GetImageTailleRéelle()
+      
+      renvoyer __IMAGETAILLEREELLE
+     type : 458752
+   -
+     name : Preload
+     internal_properties : CAAAAAgAAADohtiegut2J3FCReAL7jcSOADr/ueFJGyBhhS89hW2cKIWYBD6IzIeZvFapP9tyd+BK6UolgxLyprTCqnIr1/SAWtus9g0NGQE/tffWo9etPMec4gGJgb//N4UZ/HXXanrNy0Saop4s7vkXZyhmFGFkWe5GaGm+OTQjxyLBfo1k4UCLoPi86aHI9W72JKgJ4jHOH2ygOZ1X7DsMurqd5dg9xh8hew4zH2S4+/mQFddxy4DIW2e3+mhKP3J5FofAOgB9NbtDKfBsi3rZw==
+     procedure_id : 1821923447634236997
+     type_code : 14
+     code : |1-
+      // Résumé : Pré-charge les image
+      // Syntaxe :
+      // Preload (<sAlias> est chaîne, <sImageMiniature> est chaîne, <sImageTailleReelle> est chaîne)
+      //
+      // Paramètres :
+      //	sAlias (chaîne) : Alias du champ image
+      //	sImageMiniature (chaîne) : Chemin de l'image miniature
+      //	sImageTailleReelle (chaîne) : Chemin de l'image en taille réelle
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure Preload(local sAlias est une chaine, local sImageMiniature est une chaine, local sImageTailleReelle est une chaine)
+      
+      	pclChamp 	est un objet dynamique
+      	pclThumb	est un objet dynamique
+      	
+      	// Récupère l'objet HTML correspondant
+      	pclChamp = RecupereObjetPage(sAlias)
+      	
+      	si pclChamp <> null ALORS
+      		
+      		// Pas d'image en taille réelle ?
+      		si sImageTailleReelle = "" ALORS
+      			
+      			// On affichera donc l'image miniature
+      			sImageTailleReelle = sImageMiniature
+      		FIN
+      		
+      		// On conserve le chemin de l'image dans la balise elle-même
+      		pclChamp:setAttribute("thumb", (sImageTailleReelle))		
+      		pclChamp:style:cursor = "url(" + repertoireweb() + "cursor/zoomin.cur), pointer"
+      						
+      		// Récupère l'image taille réelle
+      		pclThumb = RecupereObjetPage("thb" + sAlias)
+      		pclThumb:src = sImageTailleReelle
+      	FIN
+      	
+      	CacheImage()
+     type : 458752
+     role : N
+   -
+     name : Animation
+     internal_properties : CAAAAAgAAABDliSGNVWkQPLsxC2YQRSvsUuWmjUwdZC94IHlsK2uDGvQS/nLRXY05LfGsCeTgoWgym82AIEbNFtjWtjcayGFwCRpEjWvW0eiP248ZNQf+K63X2vkc1L7h8tHM6pxfcSiOnIAug1ZMC21oGLlQ+yDWTcuEwaCbdRYBAf0TtxUncwrPHFeLLk3vHpzWIvF7xPSk8TedmzoBpx0AJQQQqg=
+     procedure_id : 1821947142988088751
+     type_code : 14
+     code : |1-
+      // Résumé : Anime l'apparition de l'image en taille réelle
+      // Syntaxe :
+      // Nouvelle_Procédure ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure Animation()
+      
+      	pclBox 		est un objet dynamique
+      	nOpacite 	est un entier
+      
+      	// Récupère la boîte de l'image en taille réelle
+      	pclBox   = RecupereObjetPage("box" + __IMAGEALIAS)
+      		
+      	nOpacite = val(pclBox:getAttribute("opacite"))
+      	nOpacite += 10	
+      		
+      	si nOpacite > 100 ALORS
+      		
+      		// Fin du timer
+      		fintimer(gnTimerAnimation)
+      		gnTimerAnimation = 0
+      		retour
+      	FIN
+      	
+      	SetOpacite(pclBox, nOpacite)	
+     type : 458752
+     role : N
+   -
+     name : CacheImage
+     internal_properties : CAAAAAgAAAADSh6MV3GHuh9QyTkjh/+sHrUh7pQZHJGCDc6naziCWp861dWGNcwgT2QKXa1VlZ4rQ/R7MhJX512j+15MhPpxE7CCj7vGY/ol+pC+buoBeTlzkQRDvxd+oN1Djuw/U5JzjSQgNafwXYGtOaAJ7RnmzoTB5IK9mFYeEGrVK81jepxFWl7jZHqBgcAH7BpDKZHInav5rYmKVqcgLFjQjHkpuICJRGT+J8io09mUYq4ZAEYnh0nQvLG1hNowcliO9A==
+     procedure_id : 1821952747925319538
+     type_code : 14
+     code : |1-
+      // Résumé : Cache l'image en taille réelle
+      // Syntaxe :
+      // Nouvelle_Procédure ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure CacheImage()
+      
+      	pclBox est un objet dynamique
+      		
+      	// Arrête l'animation si elle est en cours
+      	si gnTimerAnimation <> 0 alors
+      		fintimer(gnTimerAnimation)
+      		gnTimerAnimation = 0
+      	fin
+      	
+      	// Récupère la boîte
+      	pclBox = RecupereObjetPage("box" + __IMAGEALIAS)
+      	
+      	SetOpacite(pclBox, 0)
+      	pclBox:style:visibility = "hidden"
+      	pclBox:style:left		= "-9999px"
+      	pclBox:style:top		= "0px"
+      	pclBox:style:zIndex 	= "0"
+     type : 458752
+     role : N
+   -
+     name : InitVignette
+     internal_properties : CAAAAAgAAAAgT8XTdv7LxpqziYoPT+eQyxHKK/vL/3no9m0BRabkFqxMyJiM5qKlJA3k4U6pl6GvaCT6fELdpAZP9A7iPPaijbQZicJU+upj4OpV/aIjCVzeOSwb057ZVMO5fiUH+VB404kE6o5GVTpHd9/o3wSBHKbZTYQoB8gy6fVwawwwKWoIU/zCEkmIY+J5pvvsFZwu/AjQMOF5Kq6jhkKhlW9vIhKtWg==
+     procedure_id : 1821990419112034815
+     type_code : 14
+     code : |1-
+      // Résumé : Initialise le modèle de champs
+      // Syntaxe :
+      // InitVignette ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure InitVignette()
+      
+      	// Récupère l'alias du modèle de champs
+      	__ALIAS = MoiMême..Alias
+      	
+      	// Récupère l'alias du champ image
+      	__IMAGEALIAS = IMG_MDLIMAGE..Alias
+      	
+      	IMG_MDLIMAGE..HTMLAvant = ChaîneConstruit([
+      	<div id='box%1' name='box%1' style='padding:4px; position:absolute; top: 0px; left: -9999px; visibility: hidden; color:#fff; background: white;'>
+      		<img id='thb%1' name='thb%1' vspace=4 hspace=4 border=0 onclick='%4_CACHEIMAGE();' style='cursor: url(/%5/cursor/zoomout.cur), pointer'>
+      	</div>
+      	<div style='width: %2px; height: %3px'>
+      	], __IMAGEALIAS, IMG_MDLIMAGE..Largeur, IMG_MDLIMAGE..Hauteur, __ALIAS, RépertoireWeb)
+      	
+      	IMG_MDLIMAGE..HTMLAprès = "</div>"
+     type : 458752
+   -
+     name : MaxZIndex
+     internal_properties : CAAAAAgAAAAPOyTqIFsTDx72OOlShlQh0S3XwMoqLNB/1f0RH3mMc+xp/hJg+V7Jqzfu7Ij4lu9l6078JyXrvLALWTzjvz4FwSzoVWQTy41n
+     procedure_id : 1830516388788369701
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //[ <Résultat> = ] MaxZIndex ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	entier sur 8 octets : // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      Procédure MaxZIndex()
+      
+      	extern document
+      
+      	nIndex est un entier = 0
+      	tabListe est un tableau de 0 objet dynamique
+      
+      	si document:all alors
+      		
+      		// Récupère tous les objets de la page
+      		tabListe = document:all
+      	sinon
+      		
+      		// Récupère tous les objets de la page
+      		tabListe = document:getElementsByTagName("div")
+      	fin
+      	
+      	pour i = 1 _a_ Dimension(tabListe)
+      		// On récupère le zIndex si il est plus grand
+      		pclDiv est un objet dynamique = tabListe[i]
+      		si pclDiv <> null _et_ pclDiv:style alors
+      			si nIndex < val(pclDiv:style:zIndex) alors				
+      				nIndex = Val(pclDiv:style:zIndex)
+      			FIN
+      		fin
+      	FIN
+      	
+      renvoyer (nIndex + 1)
+     type : 458752
+     role : N
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : MDLC_ModèleChamps1
+resources :
+ string_res :
+  identifier : 0x1fbe176d04c0ab4d
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+webification :
+ internal_properties : CAAAAAgAAACYzxT95H3qP7nIys4LqA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
